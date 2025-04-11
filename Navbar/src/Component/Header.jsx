@@ -20,7 +20,7 @@ function Header() {
 
       </div>
       <div className='justify-items-center relative top-8 md:1/2  mt-2 '>
-        <img src={png}  className='md:w-[700px] ' ></img>
+        <img src={png}  className='md:w-[700px] h-[50vh] ' ></img>
       </div>
       
 
