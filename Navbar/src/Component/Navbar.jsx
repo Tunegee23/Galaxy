@@ -32,8 +32,8 @@ const Navbar = () => {
 
 
   return (
-    <div className='bg-[#9b2204] lg:h-screen md:h-screen flex justify-center  items-center  p-5 justify-items-center '>
-      <nav className="bg-black  p-12 container rounded-[10px] relative  ">
+    <div className='bg-[#9b2204] flex justify-center  items-center] md:h-screen p-5 justify-items-center '>
+      <nav className="bg-black  p-12  container rounded-[10px] relative  ">
         <div className='justify-evenly  items-center  flex'>
           <div className="container mx-auto  flex gap-[3rem]  items-center">
             <h1 className="text-white font-sans text-[20px]"><a href="#">Galaxy</a></h1>
