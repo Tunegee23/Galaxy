@@ -3,9 +3,9 @@ import png from "../assets/Png.png"
 
 function Header() {
   return (
-    <div className='md:flex relative md:top-[4rem] lg:top-[2rem] '>
+    <div className='md:flex  '>
 
-      <div className='p-3 relative md:top-[1rem] mx-0'>
+      <div className='p-3 relative mx-0'>
         <div className='space-y-2 '>
           <p className='text-[#8e8e8e] text-[12px] font-sans-Bold  '>Rate <strong className='text-[#FFFFFF]'>5.0</strong> on Shopify </p>
           <h1 className='text-white leading-[3.2rem] font-sans w-full md:w-3/2 md:text-[60px] md:leading-[4rem] font-[500] text-[45px]'>Meet the <span className=' underline decoration-wavy decoration-[#f8fdaf]'> Super-fast</span>  E-commence Video <span className= 'text-gray-300 '>Platform</span></h1>
@@ -19,8 +19,8 @@ function Header() {
         </div>
 
       </div>
-      <div className='justify-items-center relative md:top-[2rem] md:1/2  mt-2 '>
-        <img src={png}  className='md:w-[700px]  md:h-[40vh] ' ></img>
+      <div className='justify-items-center relative md:top-[1rem] md:1/2  mt-2 '>
+        <img src={png}  className='md:w-[700px]  md:h-[30vh] ' ></img>
       </div>
       
 

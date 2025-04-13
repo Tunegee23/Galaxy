@@ -32,8 +32,8 @@ const Navbar = () => {
 
 
   return (
-    <div className='bg-[#9b2204] flex justify-center  items-center] md:h-screen p-5 justify-items-center '>
-      <nav className="bg-black  p-12  container rounded-[10px] relative  ">
+    <div className='bg-[#9b2204]  flex justify-center items-center p-5 justify-items-center '>
+      <nav className="bg-black container md:px-5 p-4 rounded-[10px] ">
         <div className='justify-evenly  items-center  flex'>
           <div className="container mx-auto  flex gap-[3rem]  items-center">
             <h1 className="text-white font-sans text-[20px]"><a href="#">Galaxy</a></h1>
@@ -42,18 +42,7 @@ const Navbar = () => {
                 <li key={item.href} className="relative"> 
                   <a href={item.href} className="text-white flex  hover:text-gray-300 px-3 py-2 rounded">
                     {item.label}
-                    {/* <button className='ml-[1rem]' onClick={toggleDropdown}></button>
-                      {item.subitems && (
-                      <ul className='absolute hidden font-sans-Bold text-white mt-4'>
-                        {item.subitems.map((subitem) => (
-                        <li key={subitem.href} className="p-1 ">
-                          <a href={subitem.href} className="hover:bg-gray-700">{subitem.label}</a>
-                        </li>
-                        ))}
-                      </ul>
-                    )} */}
                   </a>
-
                 </li>
               ))}
             </ul>
