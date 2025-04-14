@@ -8,7 +8,7 @@ function Header() {
       <div className='p-3 relative mx-0'>
         <div className='space-y-2 '>
           <p className='text-[#8e8e8e] text-[12px] font-sans-Bold  '>Rate <strong className='text-[#FFFFFF]'>5.0</strong> on Shopify </p>
-          <h1 className='text-white  leading-[3rem]  font-sans md:w-3/2 md:text-[40px] lg:text-[60px] md:leading-[3rem] lg:leading-[4rem] font-[500] text-[30px]'>Meet the <span className=' underline decoration-wavy decoration-[#f8fdaf]'> Super-fast</span>  E-commence Video <span className= 'text-gray-300 '>Platform</span></h1>
+          <h1 className='text-white  leading-[3rem]  font-sans md:w-3/2 md:text-[40px] lg:text-[60px] md:leading-[3rem] lg:leading-[4rem] font-[500] text-[31.5px]'>Meet the <span className=' underline decoration-wavy decoration-[#f8fdaf]'> Super-fast</span>  E-commence Video <span className= 'text-gray-300 '>Platform</span></h1>
           <small className='text-[#858585]  font-sans-Bold relative top-2 text-[12px]'>Packed with lightning-fast Shoppable videos, Interactive cideo quizzes, Live-stream shopping & more - All 3x faster than YouTube</small>
         </div>
         
